@@ -1,0 +1,284 @@
+a {
+  text-decoration: none
+}
+.bg-color {
+  background: rgba(21,11,99,.65)
+}
+html body {
+  font: 14px roboto;
+  font-weight: 100
+}
+html body .subtitle,
+html body h1,
+html body h2,
+html body h3,
+html body h4 {
+  text-align: center;
+  font: 32px 'Playfair Display'
+}
+html body h1 {
+  font-weight: 900;
+  text-transform: capitalize
+}
+html body h2 {
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+  line-height: 16px
+}
+html body .subtitle {
+  font-size: 14px;
+  line-height: 24px
+}
+html body p {
+  line-height: 23px
+}
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block
+}
+body {
+  line-height: 1
+}
+ol,
+ul {
+  list-style: none
+}
+blockquote,
+q {
+  quotes: none
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: '';
+  content: none
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+.left {
+  float: left
+}
+.right {
+  float: right
+}
+.container {
+  padding: 70px 0;
+  overflow: hidden
+}
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto
+}
+.line:after {
+  content: "";
+  height: 1px;
+  width: 52px;
+  margin: 19px auto 25px;
+  display: block;
+  background: #00e0d0
+}
+.button {
+  width: 118px;
+  padding: 9px 0;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid #00e0d0;
+  border-radius: 3px;
+  color: #00e0d0;
+  text-transform: uppercase;
+  font: 16px 'Hammersmith One'
+}
+.controls {
+  width: 60px;
+  overflow: hidden;
+  margin: 127px auto 0
+}
+.controls .circle {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  float: left;
+  margin-left: 4px;
+  cursor: pointer
+}
+.controls .circle:first-child {
+  margin-left: 0
+}
+.controls .active {
+  background: #00e0d0
+}
+.header {
+  background: url("../images/Drop Your Image here1.jpg") center/cover fixed;
+  color: #fff
+}
+.header .wrapper {
+  padding: 0 20px 5.1%
+}
+.header .wrapp {
+  overflow: hidden;
+  padding-bottom: 150px;
+  padding-top: 15px;
+  height: 53px
+}
+.header .main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  font-size: 13px
+}
+.header .logo {
+  max-width: 128px;
+  width: 100%
+}
+.header .items-menu {
+  text-transform: uppercase;
+  color: #fff;
+  transition: all .5s ease;
+  font-weight: 700;
+  margin-left: 26px
+}
+.header .items-menu:nth-of-type(1) {
+  margin-left: 0
+}
+.header .items-menu:hover {
+  color: #0ff
+}
+.header p {
+  text-align: center;
+  max-width: 780px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 45px
+}
+.our-story img {
+  margin-left: 65px
+}
+.our-story .logo-image {
+  width: 40%
+}
+.info {
+  width: 60%;
+  box-sizing: border-box;
+  padding-left: 20px
+}
+.info h2 {
+  text-align: left
+}
+.info p {
+  margin-bottom: 18px
+}
+.info p:last-of-type {
+  margin-bottom: 27px
+}
+.info .button {
+  margin: 0
+}
+.video {
+  background: #000;
+  height: 400px
+}
